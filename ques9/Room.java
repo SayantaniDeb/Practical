@@ -1,4 +1,4 @@
-package folder2;
+package ques9;
 
 import java.util.Scanner;
 

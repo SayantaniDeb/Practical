@@ -20,8 +20,7 @@ class C extends Thread {
 }
 
 class q4 {
-
-  public static void main(String args[]) {
+public static void main(String args[]) {
     A a = new A();
     B b = new B();
     C c = new C();
@@ -30,6 +29,6 @@ class q4 {
     c.setPriority(Thread.MIN_PRIORITY);
     a.start();
     b.start();
-    c.start();
+    c.start();    
   }
 }

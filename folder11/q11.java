@@ -1,5 +1,6 @@
 import java.applet.*;
 import java.awt.*;
+import java.awt.Graphics;
 
 public class q11 extends Applet {
 
@@ -11,12 +12,14 @@ public class q11 extends Applet {
     g.fillOval(230, 150, 20, 20);
     g.setColor(Color.red);
     g.fillOval(170, 200, 60, 30);
-    g.setColor(Color.black);
-    g.drawArc(170, 200, 60, 30, 180, 180);
-    g.setColor(Color.black);
-    g.drawLine(200, 200, 200, 250);
-    g.setColor(Color.black);
-    g.drawArc(150, 150, 100, 100, 0, 180);
+    g.drawString("hi", 100, 100);
+    showStatus("Applet for active web page");
+    // g.setColor(Color.black);
+    // g.drawArc(170, 200, 60, 30, 180, 180);
+    // g.setColor(Color.black);
+    // g.drawLine(200, 200, 200, 250);
+    // g.setColor(Color.black);
+    // g.drawArc(150, 150, 100, 100, 0, 180);
   }
 
   public static void main(String[] args) {
@@ -26,8 +29,8 @@ public class q11 extends Applet {
     f.add(applet);
     f.setSize(400, 400);
     f.setVisible(true);
-    // applet.showStatus("Applet for active web page");
-    applet.init();
-    applet.start();
+    f.setTitle("Applet for active web page");
+    // applet.init();
+    // applet.start();
   }
 }

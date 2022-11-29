@@ -1,6 +1,6 @@
-package one.two;
+package ques5.one.two;
 
-import one.A;
+import ques5.one.A;
 
 public class D extends A{
     public void substract(int a,int b){

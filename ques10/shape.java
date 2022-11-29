@@ -1,4 +1,4 @@
-package folder3;
+package ques10;
 
 import java.util.Scanner;
 //4/3=1.33

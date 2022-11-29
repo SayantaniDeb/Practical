@@ -1,4 +1,4 @@
-package one;
+package ques5.one;
 
 public class A extends B implements C {
     public void multiply(int a,int b){

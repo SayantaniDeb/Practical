@@ -1,4 +1,4 @@
-package folder5;
+package ques3;
 
 import java.util.Scanner;
 class myexception extends Exception{

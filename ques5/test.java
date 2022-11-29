@@ -1,5 +1,7 @@
+package ques5;
 import java.util.Scanner;
-import one.two.D;
+
+import ques5.one.two.D;
 class Test extends D{
 
     public void area(int a){
